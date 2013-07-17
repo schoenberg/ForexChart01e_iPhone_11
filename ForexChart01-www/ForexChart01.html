@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ForexChart01</title>
+    <meta name="generator" content=
+      "MobiOne Studio - Design Center (2.3.2.201304250842), http://genuitec.com/mobile"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="ForexChart01.css"/>
+    <link rel="stylesheet" href="res/spinningwheel.css"/>
+    <script type="text/javascript" src="res/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="res/iscroll.js"></script>
+    <script type="text/javascript" src="ForexChart01.js"></script>
+    <script type="text/javascript" src="res/phoneui.js"></script>
+    <script type="text/javascript" src="res/spinningwheel.js"></script>
+    <script type="text/javascript" src="ForexChart01_custom.js"></script>
+  </head>
+  <body>
+    <div class="m1-top-root">
+      <!-- Loading spinner  -->
+      <div class="m1-loading">
+        <div>
+          <canvas class="m1-loading-spinner" width="25" height="25"></canvas>
+          <span class="m1-loading-text"></span>
+        </div>
+      </div>
+      <!-- Prompt to be shown for adding page on homescreen  -->
+      <canvas class="m1-homescreen-prompt" width="250" height="120"></canvas>
+      <!-- ***** ForexChart01 *****  -->
+      <div id="m1-ForexChart01" class="m1-root m1-background-1">
+        <div id="m1-ForexChart01-text1" class="m1-text m1-font-3 m1-shadow-2"
+          >select the currency pair /</div>
+        <div id="m1-ForexChart01-text2" class="m1-text m1-font-3 m1-shadow-2"
+          >wählen Sie das Währungspaar aus</div>
+        <div class="m1-aux-hidden-div">
+          <select id="m1-ForexChart01-hidden-select-combobox1" name="combobox1" 
+            data-action-change-id="action0">
+            <option value="EURGBP" label="EURGBP" selected="">EURGBP</option>
+            <option value="EURUSD" label="EURUSD">EURUSD</option>
+            <option value="EURJPY" label="EURJPY">EURJPY</option>
+            <option value="AUDUSD" label="AUDUSD">AUDUSD</option>
+            <option value="GBPJPY" label="GBPJPY">GBPJPY</option>
+            <option value="GBPUSD" label="GBPUSD">GBPUSD</option>
+            <option value="USDCAD" label="USDCAD">USDCAD</option>
+            <option value="USDCHF" label="USDCHF">USDCHF</option>
+            <option value="USDJPY" label="USDJPY">USDJPY</option>
+          </select>
+        </div>
+        <div id="m1-ForexChart01-combobox1" 
+          class="m1-select-list-menu-spinner m1-soft-spinner m1-iscroll-no-prevent-default m1-combobox m1-font-2 m1-btn-7 m1-btn-8"
+          name="combobox1" data-hiddenInputId="m1-ForexChart01-hidden-select-combobox1" 
+          data-selectionInfoId="m1-ForexChart01-combobox1" data-multiple="false" 
+          data-verbose-items-info="true"></div>
+        <div id="m1-ForexChart01-panel1" class="m1-iscroll-wrapper m1-border-1 m1-background-2">
+          <div id="m1-ForexChart01-panel1-scroller" class="m1-iscroll-scroller" data-bounce="true">
+            </div>
+        </div>
+        <div id="m1-ForexChart01-html1" class="m1-custom-html m1-background-2 m1-border-2"
+          ><script>
+
+localStorage.setItem('Waehrung', 'EURUSD');
+localStorage.setItem('sp', '14');
+localStorage.setItem('Zoom', '300');
+
+</script>
+
+<script>
+   var rand1 = Math.floor((Math.random()*100000000000)+1); 
+</script>
+
+<div id="if1" class="if1">  
+   <script id="s1" class="s1" src="http://tr8.biz/script_ios_forexchart_01_storage.js?zufall=" + rand1></script>
+</div>
+</div>
+        <div id="m1-ForexChart01-next1" 
+          class="m1-clickable m1-button m1-font-1 m1-shadow-1 m1-btn-9 m1-btn-10" name="next1" 
+          data-action-click-id="action1">settings</div>
+        <div id="m1-images-preloader" class="m1-preload-images-1"></div>
+      </div>
+      <!-- ***** ForexChart01s2 *****  -->
+      <div id="m1-ForexChart01s2" class="m1-root m1-background-1">
+        <div id="m1-ForexChart01s2-back1" 
+          class="m1-clickable m1-button m1-font-1 m1-shadow-1 m1-btn-1 m1-btn-2" name="back1" 
+          data-action-click-id="action2">save settings</div>
+        <div class="m1-aux-hidden-div">
+          <select id="m1-ForexChart01s2-hidden-select-combobox1" name="combobox1" 
+            data-action-change-id="action3">
+            <option value="300" label="300" selected="">300</option>
+            <option value="360" label="360">360</option>
+            <option value="420" label="420">420</option>
+            <option value="480" label="480">480</option>
+            <option value="540" label="540">540</option>
+            <option value="600" label="600">600</option>
+          </select>
+        </div>
+        <div id="m1-ForexChart01s2-combobox1" 
+          class="m1-select-list-menu-spinner m1-soft-spinner m1-iscroll-no-prevent-default m1-combobox m1-font-2 m1-btn-3 m1-btn-4"
+          name="combobox1" data-hiddenInputId="m1-ForexChart01s2-hidden-select-combobox1" 
+          data-selectionInfoId="m1-ForexChart01s2-combobox1" data-multiple="false" 
+          data-verbose-items-info="true"></div>
+        <div id="m1-ForexChart01s2-text1" class="m1-text m1-font-3 m1-shadow-2"
+          >time frame (minutes)</div>
+        <div class="m1-aux-hidden-div">
+          <select id="m1-ForexChart01s2-hidden-select-combobox2" name="combobox2" 
+            data-action-change-id="action4">
+            <option value="14" label="14" selected="">14</option>
+            <option value="30" label="30">30</option>
+            <option value="60" label="60">60</option>
+            <option value="90" label="90">90</option>
+            <option value="120" label="120">120</option>
+            <option value="150" label="150">150</option>
+            <option value="180" label="180">180</option>
+            <option value="210" label="210">210</option>
+          </select>
+        </div>
+        <div id="m1-ForexChart01s2-combobox2" 
+          class="m1-select-list-menu-spinner m1-soft-spinner m1-iscroll-no-prevent-default m1-combobox m1-font-2 m1-btn-3 m1-btn-4"
+          name="combobox2" data-hiddenInputId="m1-ForexChart01s2-hidden-select-combobox2" 
+          data-selectionInfoId="m1-ForexChart01s2-combobox2" data-multiple="false" 
+          data-verbose-items-info="true"></div>
+        <div id="m1-ForexChart01s2-text2" class="m1-text m1-font-3 m1-shadow-2"
+          >stochastic period (minutes)</div>
+        <div id="m1-ForexChart01s2-next1" 
+          class="m1-clickable m1-button m1-font-1 m1-shadow-1 m1-btn-5 m1-btn-6" name="next1" 
+          data-action-click-id="action5">free signals</div>
+        <div id="m1-ForexChart01s2-text3" class="m1-text m1-font-3 m1-shadow-2"
+          >Important: You can draw in the rate curves also dividing lines (lines of resistance and support levels).</div>
+        <div id="m1-ForexChart01s2-text4" class="m1-text m1-font-3 m1-shadow-2"
+          >We are happy if we can program Android apps for you. Call us at schoenberg@handysystems.eu.</div>
+        <div id="m1-ForexChart01s2-text5" class="m1-text m1-shadow-2 m1-font-4">settings:</div>
+        <div id="m1-images-preloader2" class="m1-preload-images-2"></div>
+      </div>
+    </div>
+  </body>
+</html>
