@@ -58,22 +58,72 @@
             </div>
         </div>
         <div id="m1-ForexChart01-html1" class="m1-custom-html m1-background-2 m1-border-2"
-          ><script>
+          ><script type="text/javascript">
 
-localStorage.setItem('Waehrung', 'EURUSD');
-localStorage.setItem('sp', '14');
-localStorage.setItem('Zoom', '300');
+function Fensterweite () {
+  if (window.innerWidth) {
+    return window.innerWidth;
+  } else if (document.body && document.body.offsetWidth) {
+    return document.body.offsetWidth;
+  } else {
+    return 0;
+  }
+}
 
+function Fensterhoehe () {
+  if (window.innerHeight) {
+    return window.innerHeight;
+  } else if (document.body && document.body.offsetHeight) {
+    return document.body.offsetHeight;
+  } else {
+    return 0;
+  }
+}
+
+function neuAufbau () {
+  if (Weite != Fensterweite() || Hoehe != Fensterhoehe())
+    location.href = location.href;
+}
+
+/* Überwachung von Netscape initialisieren */
+if (!window.Weite && window.innerWidth) {
+  window.onresize = neuAufbau;
+  Weite = Fensterweite();
+  Hoehe = Fensterhoehe();
+}
 </script>
 
-<script>
-   var rand1 = Math.floor((Math.random()*100000000000)+1); 
+<script type="text/javascript">
+/* Überwachung von Internet Explorer initialisieren */
+if (!window.Weite && document.body && document.body.offsetWidth) {
+  window.onresize = neuAufbau;
+  Weite = Fensterweite();
+  Hoehe = Fensterhoehe();
+}
 </script>
 
-<div id="if1" class="if1">  
-   <script id="s1" class="s1" src="http://tr8.biz/script_ios_forexchart_01_storage.js?zufall=" + rand1></script>
-</div>
-</div>
+<script type="text/javascript">
+  window.onresize = neuAufbau;
+  Weite = Fensterweite();
+  Hoehe = Fensterhoehe();
+  
+var Breite = Fensterweite();
+var Hoehe0 = Fensterhoehe();
+
+var Breite1 = 0;
+var Hoehe1 = 0;
+
+Breite = Weite;
+Hoehe0 = Hoehe;
+
+Breite = Breite - 10;
+Hoehe0 = Hoehe0 - 50;
+
+Breite1 = Breite - 10;
+Hoehe1 = Hoehe0 - 210;
+
+document.write('<iframe name=if1 id=if1 src=http://g2l.eu/daten/html50o.php?Waehrung=EURGBP&w=' + Breite1 + '&h=' + Hoehe1 + '&sp=14&Zeitleiste=0&Zoom=300 width=' + Breite + ' height=' + Hoehe0 + ' scrolling=no frameborder=no></iframe>'); 
+</script></div>
         <div id="m1-ForexChart01-next1" 
           class="m1-clickable m1-button m1-font-1 m1-shadow-1 m1-btn-9 m1-btn-10" name="next1" 
           data-action-click-id="action1">settings</div>

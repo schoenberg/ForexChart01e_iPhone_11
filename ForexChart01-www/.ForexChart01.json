@@ -1,12 +1,12 @@
 {
- "uuid" : "83606512547b40f88b1d1d2d5a914401", 
+ "uuid" : "3dbce8e601534e998f58d4a037a854aa", 
  "mainFile" : "ForexChart01.html", 
- "wholeFilesHash" : "0K25ORoDD7VZUTbRpLD9+n18GWg=", 
+ "wholeFilesHash" : "KUehiwMNsYRWUBw+xH/xmw5UR9Q=", 
  "files" : [
-  {"name" : "cache.manifest", "hash" : "lceVy+MSDgG1MzIZRQMUjpAJNRE=", "generated" : true}, 
+  {"name" : "cache.manifest", "hash" : "cx+RE2mUftS4jKFAW6zT2JaKs9k=", "generated" : true}, 
   {"name" : "ForexChart01.css", "hash" : "16s7Pc03aUH8Ph6OmfSiRG0RbUI=", "generated" : true}, 
-  {"name" : "ForexChart01.html", "hash" : "xX0OYs99BV7wxegIoZGFTbMhRig=", "generated" : true}, 
-  {"name" : "ForexChart01.js", "hash" : "5j3gOj1/OQMXxOA7oDFK7gfCPBU=", "generated" : true}, 
+  {"name" : "ForexChart01.html", "hash" : "mKUYTRdW4Dj2/94eUkES+invS1o=", "generated" : true}, 
+  {"name" : "ForexChart01.js", "hash" : "On1rKoHWMA3T3c+jwXw53m4RxXI=", "generated" : true}, 
   {"name" : "ForexChart01_custom.js", "hash" : "H8hqzoIiJgK6XnvqmMU3I8UAh7Y=", "generated" : false}, 
   {"name" : "images/pinstripes.png", "hash" : "rJeKbR4/TjtnkwIXkVjFhKd3woc=", "generated" : true}, 
   {"name" : "res/images/backButton1.png", "hash" : "4NHirh5cNOK/MgVM/fPlAUF2HlI=", "generated" : true}, 
