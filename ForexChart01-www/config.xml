@@ -19,9 +19,9 @@
     <!-- allgemeine -->
     <preference name="target-device" value="handset" />
     <preference name="fullscreen" value="true" />
+    <preference name="orientation" value="portrait" />
 
     <!-- iOS -->
-    <preference name="ios-statusbarstyle" value="black-translucent" />
     <preference name="stay-in-webview" value="true" />
     <preference name="exit-on-suspend" value="true" />
     <preference name="show-splash-screen-spinner" value="true" />
