@@ -26,32 +26,32 @@
     <preference name="exit-on-suspend" value="true" />
 
        <!-- icons -->
-       <icon src="Bilder/Bilder_iPhone/Folder Applications___57x57.png" gap:platform="ios" width="57" height="57" />
-       <icon src="Bilder/Bilder_iPhone/Folder Applications___72x72.png" gap:platform="ios" width="72" height="72" />
-       <icon src="Bilder/Bilder_iPhone/Folder Applications___114x114.png" gap:platform="ios" width="114" height="114" />  
+       <icon src="ForexChart01-www/Bilder/Bilder_iPhone/Folder Applications___57x57.png" gap:platform="ios" width="57" height="57" />
+       <icon src="ForexChart01-www/Bilder/Bilder_iPhone/Folder Applications___72x72.png" gap:platform="ios" width="72" height="72" />
+       <icon src="ForexChart01-www/Bilder/Bilder_iPhone/Folder Applications___114x114.png" gap:platform="ios" width="114" height="114" />  
 
            <!-- Splash Screen --> 
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__320x480.png" gap:platform="ios" width="320" height="480" />
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__640x960.png" gap:platform="ios" width="640" height="960" />
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__640x1136.png" gap:platform="ios" width="640" height="1136" />
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__748x1024.png" gap:platform="ios" width="1024" height="748" />
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__768x1004.png" gap:platform="ios" width="768" height="1004" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_iPhone/000_10__320x480.png" gap:platform="ios" width="320" height="480" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_iPhone/000_10__640x960.png" gap:platform="ios" width="640" height="960" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_iPhone/000_10__640x1136.png" gap:platform="ios" width="640" height="1136" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_iPhone/000_10__748x1024.png" gap:platform="ios" width="1024" height="748" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_iPhone/000_10__768x1004.png" gap:platform="ios" width="768" height="1004" />
 
     <!-- Android -->
     <preference name="android-installLocation" value="auto" />
     <preference name="splash-screen-duration" value="10000" />
 
        <!-- icons -->    
-       <icon src="Bilder/Bilder_Android/Folder Applications___36x36.png" gap:platform="android" gap:density="ldpi" />
-       <icon src="Bilder/Bilder_Android/Folder Applications___48x48.png" gap:platform="android" gap:density="mdpi" />
-       <icon src="Bilder/Bilder_Android/Folder Applications___72x72.png" gap:platform="android" gap:density="hdpi" />
-       <icon src="Bilder/Bilder_Android/Folder Applications___96x96.png" gap:platform="android" gap:density="xhdpi" />
+       <icon src="ForexChart01-www/Bilder/Bilder_Android/Folder Applications___36x36.png" gap:platform="android" gap:density="ldpi" />
+       <icon src="ForexChart01-www/Bilder/Bilder_Android/Folder Applications___48x48.png" gap:platform="android" gap:density="mdpi" />
+       <icon src="ForexChart01-www/Bilder/Bilder_Android/Folder Applications___72x72.png" gap:platform="android" gap:density="hdpi" />
+       <icon src="ForexChart01-www/Bilder/Bilder_Android/Folder Applications___96x96.png" gap:platform="android" gap:density="xhdpi" />
 
            <!-- Splash Screen --> 
-           <gap:splash src="Bilder/Bilder_Android/000_10__320x426.png" gap:platform="android" gap:density="ldpi" />
-           <gap:splash src="Bilder/Bilder_Android/000_10__320x470.png" gap:platform="android" gap:density="mdpi" />
-           <gap:splash src="Bilder/Bilder_Android/000_10__480x640.png" gap:platform="android" gap:density="hdpi" />
-           <gap:splash src="Bilder/Bilder_Android/000_10__720x960.png" gap:platform="android" gap:density="xhdpi" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_Android/000_10__320x426.png" gap:platform="android" gap:density="ldpi" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_Android/000_10__320x470.png" gap:platform="android" gap:density="mdpi" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_Android/000_10__480x640.png" gap:platform="android" gap:density="hdpi" />
+           <gap:splash src="ForexChart01-www/Bilder/Bilder_Android/000_10__720x960.png" gap:platform="android" gap:density="xhdpi" />
 
 
 </widget>
