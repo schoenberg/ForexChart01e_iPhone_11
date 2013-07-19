@@ -31,9 +31,9 @@
        <icon src="Bilder/Bilder_iPhone/Folder Applications___114x114.png" gap:platform="ios" width="114" height="114" />  
 
            <!-- Splash Screen --> 
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__320x480.jpg" gap:platform="ios" width="320" height="480" />
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__640x960.jpg" gap:platform="ios" width="640" height="960" />
-           <gap:splash src="Bilder/Bilder_iPhone/000_10__640x1136.jpg" gap:platform="ios" width="640" height="1136" />
+           <gap:splash src="Bilder/Bilder_iPhone/000_10__320x480.png" gap:platform="ios" width="320" height="480" />
+           <gap:splash src="Bilder/Bilder_iPhone/000_10__640x960.png" gap:platform="ios" width="640" height="960" />
+           <gap:splash src="Bilder/Bilder_iPhone/000_10__640x1136.png" gap:platform="ios" width="640" height="1136" />
            <gap:splash src="Bilder/Bilder_iPhone/000_10__748x1024.png" gap:platform="ios" width="1024" height="748" />
            <gap:splash src="Bilder/Bilder_iPhone/000_10__768x1004.png" gap:platform="ios" width="768" height="1004" />
 
